@@ -1,4 +1,20 @@
 {
+  "api": {
+    "ApiFactoriaPruebas": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "factoriapruebas"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "factoriapruebas219e488e": {
       "customAuth": false,
@@ -23,6 +39,31 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "function": {
+    "factoriapruebas": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_factoriapruebas_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "factoriapruebas"
+        }
+      ]
+    },
+    "AMPLIFY_function_factoriapruebas_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "factoriapruebas"
+        }
+      ]
     }
   }
 }

@@ -47,4 +47,15 @@ dependencies {
 
     // Support for Java 8 features
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+
+    // https://mvnrepository.com/artifact/com.amazonaws/aws-android-sdk-core
+    implementation 'com.amazonaws:aws-android-sdk-core:2.69.0'
+
+    // https://mvnrepository.com/artifact/software.amazon.awscdk/apigateway
+    //implementation 'software.amazon.awscdk:apigateway:1.201.0'
+
+    // https://mvnrepository.com/artifact/com.amazonaws/aws-android-sdk-apigateway-core
+    implementation 'com.amazonaws:aws-android-sdk-apigateway-core:2.69.0'
+
+
 }

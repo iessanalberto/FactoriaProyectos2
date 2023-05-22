@@ -6,4 +6,9 @@
     <string name="password">enter password</string>
     <string name="signupbtn">Sign Up</string>
     <string name="signinbtn">Sign In</string>
+    <!-- CONFIRM -->
+    <string name="code">enter code</string>
+    <string name="verify">Verify</string>
+    <!-- HOME -->
+    <string name="signoutbtn">Sign Out</string>
 </resources>

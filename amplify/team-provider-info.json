@@ -9,11 +9,21 @@
       "UnauthRoleName": "amplify-factoriapruebas-dev-191807-unauthRole",
       "StackName": "amplify-factoriapruebas-dev-191807",
       "StackId": "arn:aws:cloudformation:us-east-1:336722522156:stack/amplify-factoriapruebas-dev-191807/cc32bf90-f4d6-11ed-8986-12d45425aab9",
-      "AmplifyAppId": "d1622hudkmsf63"
+      "AmplifyAppId": "d1622hudkmsf63",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-factoriapruebas-dev-191807-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "factoriapruebas219e488e": {}
+      },
+      "function": {
+        "factoriapruebas": {
+          "deploymentBucketName": "amplify-factoriapruebas-dev-191807-deployment",
+          "s3Key": "amplify-builds/factoriapruebas-4c655164713476424646-build.zip"
+        }
+      },
+      "api": {
+        "ApiFactoriaPruebas": {}
       }
     }
   }
