@@ -14,6 +14,9 @@ public class SignUpActivity extends AppCompatActivity {
     EditText etEmail;
     EditText etPassword;
     Button btnSignup;
+    Button btnSignin;
+
+    Button btnSignout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +38,28 @@ public class SignUpActivity extends AppCompatActivity {
 
             }
         });
+
+        btnSignin = findViewById(R.id.btnSignin);
+        btnSignin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                amplifyCognito.loadLogin();
+            }
+        });
+
+        btnSignout = findViewById(R.id.btnSignout);
+
+        btnSignout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                amplifyCognito.signOut();
+            }
+        });
+
+
+
+
+
 
     }
 }
