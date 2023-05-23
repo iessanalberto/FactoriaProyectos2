@@ -42,6 +42,11 @@
     }
   },
   "function": {
+    "FactoriaPruebasJava": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "factoriapruebas": {
       "build": true,
       "providerPlugin": "awscloudformation",
@@ -49,6 +54,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_FactoriaPruebasJava_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "FactoriaPruebasJava"
+        }
+      ]
+    },
+    "AMPLIFY_function_FactoriaPruebasJava_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "FactoriaPruebasJava"
+        }
+      ]
+    },
     "AMPLIFY_function_factoriapruebas_deploymentBucketName": {
       "usedBy": [
         {

@@ -20,6 +20,10 @@
         "factoriapruebas": {
           "deploymentBucketName": "amplify-factoriapruebas-dev-191807-deployment",
           "s3Key": "amplify-builds/factoriapruebas-4c655164713476424646-build.zip"
+        },
+        "FactoriaPruebasJava": {
+          "deploymentBucketName": "amplify-factoriapruebas-dev-191807-deployment",
+          "s3Key": "amplify-builds/FactoriaPruebasJava-534d634a707771495553-build.zip"
         }
       },
       "api": {
